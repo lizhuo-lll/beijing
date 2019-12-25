@@ -1936,7 +1936,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/C:/Users/Administrator/Desktop/1.txt"
+							"src": "/root"
 						}
 					]
 				},
@@ -1980,7 +1980,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/C:/Users/Administrator/Desktop/1.doc"
+							"src": "/root"
 						}
 					]
 				},
@@ -2014,7 +2014,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/C:/Users/Administrator/Desktop/1.jpg"
+							"src": "/root"
 						}
 					]
 				},
@@ -2058,7 +2058,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/C:/Users/Administrator/Desktop/中文.txt"
+							"src": "/root"
 						}
 					]
 				},
