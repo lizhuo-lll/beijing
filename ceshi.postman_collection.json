@@ -1936,7 +1936,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/root"
+							"src": "/root/1.txt"
 						}
 					]
 				},
@@ -1980,7 +1980,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/root"
+							"src": "/root/1.doc"
 						}
 					]
 				},
@@ -2014,7 +2014,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/root"
+							"src": "/root/1.jpg"
 						}
 					]
 				},
@@ -2058,7 +2058,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/root"
+							"src": "/root/zhongwen.txt"
 						}
 					]
 				},
