@@ -1945,50 +1945,6 @@
 			"response": []
 		},
 		{
-			"name": "36",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "778751da-19dc-4f76-a5d6-17d7728c4df8",
-						"exec": [
-							"/*序列化处理*/\r",
-							"var jsonData = JSON.parse(responseBody)\r",
-							"\r",
-							"/*断言协议状态码*/\r",
-							"pm.test(\"协议状态码为200\",function(){\r",
-							"    pm.response.to.have.status(200);});\r",
-							"    \r",
-							"\r",
-							"\r",
-							"/*验证业务状态码*/\r",
-							"tests[\"验证业务状态码为200\"]=jsonData.code===200,\r",
-							"\r",
-							"/*验证name的值*/\r",
-							"tests[\"验证msg的值\"]=jsonData.success===\"成功\""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "file",
-							"type": "file",
-							"src": "/root/1.doc"
-						}
-					]
-				},
-				"url": "http://192.168.1.7:8081/uploadfile"
-			},
-			"response": []
-		},
-		{
 			"name": "37",
 			"event": [
 				{
